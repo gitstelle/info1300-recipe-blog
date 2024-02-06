@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="scripts/jquery-3.6.1.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Hi, How Cooking?</title>
+
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <a href="index.html" id="logoLink">
+                <span id=logo>
+                    还好 Hi, How Cooking?
+                </span>
+            </a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href='all-recipes.html' class=currentPage>All Recipes</a></li>
+                    <li><a href='getting-started.html'>Getting Started</a></li>
+                    <li><a href='about-me.html'>About Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class=titleSubtitle>
+        <h1>All Recipes</h1>
+        <!-- <h2>from newest to oldest</h2> -->
+    </div>
+
+    <div id="buttonContainer">
+        <span>
+            <label for="sortRecipes"> sort:</label>
+            <select name="sortOptions" id="sortRecipes">
+                <option value="newest to oldest" selected>newest to oldest</option>
+                <option value="oldest to newest">oldest to newest</option>
+                <option value="A-Z">A-Z</option>
+            </select>
+        </span>
+
+        <button id="allRecipes" class = 'buttonClicked'>all</button>
+        <button id="snacksAppetizers">snacks & appetizers</button>
+        <button id="mainDishes"> main dishes</button>
+        <button id="dessert">dessert</button>
+    </div>
+
+    <div class=gallery>
+        <a href="boba-milk-tea.html" class="r idDessert" id="bobamilktea">
+            <div class=galleryElement>
+                <div class=img>
+                    <img src="images/boba-thumbnail.jpg" alt="Boba Milk Tea thumbnail" width="300" height="300">
+                </div>
+                <div class=thumbnailBox>
+                    <div class=thumbnailTitle>
+                        <h3>Boba Milk Tea</h3>
+                        <h4>(波霸奶茶 bōbà nǎichá)</h4>
+                        <h5><span class="thumbnail">date posted:</span> february 28, 2023</h5>
+                        <h5><span class="thumbnail">course:</span> dessert</h5>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="pork-on-rice.html" class="r idMain" id="porkonrice">
+            <div class=galleryElement>
+                <div class=img>
+                    <img src="images/pork-thumbnail.jpg" alt="Pork on Rice thumbnail" width="300" height="300">
+                </div>
+                <div class=thumbnailBox>
+                    <div class=thumbnailTitle>
+                        <h3>Pork on Rice</h3>
+                        <h4>(滷肉饭 lǔ ròu fàn)</h4>
+                        <h5><span class="thumbnail">date posted:</span> february 15, 2023</h5>
+                        <h5><span class="thumbnail">course:</span> main dishes</h5>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="green-onion-pancake-beef-roll.html" class="r idSnack" id="greenonionpancakebeefrolls">
+            <div class=galleryElement>
+                <div class=img>
+                    <img src="images/beef-rolls-thumbnail.jpg" alt="Green Onion Pancake Beef Rolls thumbnail"
+                        width="300" height="300">
+                </div>
+                <div class=thumbnailBox>
+                    <div class=thumbnailTitle>
+                        <h3>Green Onion Pancake <span class=newLine>Beef Rolls</span>
+                        </h3>
+                        <h4>(牛肉捲餅 niúròu juàn bǐng)</h4>
+                        <h5><span class="thumbnail">date posted:</span> january 25, 2023</h5>
+                        <h5><span class="thumbnail">course:</span> snacks & appetizers</h5>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <script src="scripts/recipes.js"></script>
+
+</body>
+</html>
