@@ -1,5 +1,5 @@
 # [还好 Hi, How Cooking?](https://gitstelle.github.io/info1300-recipe-blog/index.html)
-]
+
 This was a project for INFO 1300: Introductory Design and Programming for the Web, in which we were tasked to make a personal website implement interactivity using jQuery.
 
 I chose to make a Taiwanese American cooking blog called "还好 Hi, How Cooking?" "还好" can be phonetically read as "hi how" and translates to "just fine" or "okay."
