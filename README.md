@@ -14,3 +14,6 @@ These recipes and guides in the blog were NOT actually written by me! They are f
 The website submitted for this class can be found [here.](https://gitstelle.github.io/info1300-recipe-blog/index.html)
 
 ![Website demo](demo.gif)
+
+## License
+[MIT License](https://opensource.org/license/mit/)
